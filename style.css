@@ -1,0 +1,187 @@
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+body{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav button{
+    background-color: white;
+    height: 3em;
+    width: 12em;
+    border-radius: 20px;
+    border: none;
+    font-size: 10px;
+    box-shadow: 2px 2px 2px rgb(197, 192, 192);
+}
+
+header{
+    background-image: url(images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    padding: 3em;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 6em;
+    font-family: "Poppins",sans-serif;
+}
+
+.container1{
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container1 button, .container5 button{
+    background-color: hsl(322, 100%, 66%);
+    width: 15em;
+    padding: 0.8em;
+    border-radius: 30pc;
+    color: white;
+    border: none;
+    box-shadow: 2px 2px 2px rgb(197, 192, 192);
+}
+
+.container2 , .container3, .container4{
+   
+    display: flex;
+    justify-content: space-around;
+    padding: 5em 0em 5em 0em;
+    border: solid hsl(214, 47%, 97%);
+    width: 90%;
+    margin: 1.5em auto;
+}
+
+.container2 p, .container3 p, .container4 p{
+    color: hsl(208, 11%, 55%);
+}
+
+.container5{
+    width: 25%;
+    margin: 120px auto;
+    border: none;
+    padding: 2.2em;
+    text-align: center;
+    position:relative;
+    top: 10em;
+    right: inherit;
+    z-index: 1;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.texte{
+    width: 30%;
+}
+
+
+li{
+    margin: 1em;
+    list-style: none;
+}
+
+footer{
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    position: absolute;
+    right: 0;
+    left: 0;
+    padding: 8em 5em 2em 5em;
+    font-size: 13px;
+}
+
+.location{
+    display: flex;
+}
+
+footer img{
+    padding-right: 1.2em;
+}
+
+.container6{
+    
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.copyright{
+    text-align: right;
+}
+
+.logo{
+    background-color: white;
+    padding: 7px;
+    border-radius: 10px;
+    margin-left:7em ;
+}
+
+.icon a{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width:725px) {
+    .container1, .container2, .container2, .container3, .container4, .container6{
+        flex-direction: column;
+    }
+
+    .texte{
+        width: 100%;
+    }
+
+    .container5{
+        width: 60%;
+        padding-bottom: 1.2em;
+        
+    }
+
+    .container6{
+        display: block;
+
+    }
+
+    .logo{
+        margin-left:0px;
+    }
+
+    .copyright{
+        text-align: center;
+    }
+
+    footer{
+        padding: 4em 1em 1em 1em;
+    }
+
+    .container1 img{
+        width: 100%;
+        margin-top: 2em;
+    }
+
+    .container2 img, .container3 img , .container4 img{
+        width: 100%;
+    }
+
+    header{
+        padding: 1em;
+    }
+
+
+    .icon{
+       padding-left: 50%;
+       
+    }
+    
+}
